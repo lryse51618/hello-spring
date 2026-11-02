@@ -3,11 +3,12 @@
 package hello.hello_spring.repository;
 
 import hello.hello_spring.domain.Member;
+import org.springframework.stereotype.Repository;
+
 import java.util.*; //자바 유틸 안에 있는거 전부
 
 
 
-import java.util.Optional;
 
 public class MemoryMemberRepository implements MemberRepository {
 
